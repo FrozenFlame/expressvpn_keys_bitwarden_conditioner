@@ -1,0 +1,5 @@
+in/*
+!in/bitwarden_headers.csv
+!in/expressvpn_data.csv.dist
+out/*
+!out/stub

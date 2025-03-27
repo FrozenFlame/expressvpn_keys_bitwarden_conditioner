@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "condition": "deno run main.ts"
+  },
+  "imports": {
+    "@std/csv": "jsr:@std/csv"
+  }
+}
