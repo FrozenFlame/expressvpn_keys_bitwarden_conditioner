@@ -76,7 +76,7 @@ function ConditionToBitwarden(expressvpn_json: CsvEntry[]): CsvEntry[] {
             notes: row.login_note || row.secure_note || row.card_note,
             fields: "",
             reprompt: "0",
-            login_url: row.url,
+            login_uri: row.url,
             login_username: row.username,
             login_password: row.password,
             login_totp: row.totp,
